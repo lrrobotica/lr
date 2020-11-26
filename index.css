@@ -15,12 +15,12 @@
 	
 }
 
-#Sobre, #Habilidades, #Portfolio , #Publico{
+#Sobre, #Habilidades, #Portfolio, #Contato{
 	background: url(midia/bgbranco.png) center fixed;
 	color: #212121;
 	text-shadow: 0.5px 0.5px 0px #212121;
 }
-#Equipe, #Timeline, #Contato, #Projetos{
+#Equipe, #Timeline, #Publico, #Projetos{
 	background: url(midia/bgazul.png) center fixed;
 	color: #fcfcfc;
 	text-shadow: 0.5px 0.5px 0px #fcfcfc;
@@ -98,7 +98,28 @@
 .m6{
 	background: url(midia/m6.png) no-repeat center;
 }
-.m1, .m2, .m3, .m4, .m5, .m6{
+.h1{
+	background: url(midia/h1.png) no-repeat center;
+}
+.h2{
+	background: url(midia/h2.png) no-repeat center;
+}
+.h3{
+	background: url(midia/h3.png) no-repeat center;
+}
+.h4{
+	background: url(midia/h4.png) no-repeat center;
+}
+.pa1{
+	background: url(midia/pa1.png) no-repeat center;
+}
+.pa2{
+	background: url(midia/pa2.png) no-repeat center;
+}
+.pa3{
+	background: url(midia/pa3.png) no-repeat center;
+}
+.m1, .m2, .m3, .m4, .m5, .m6, .h1, .h2, .h3, .h4, .pa1, .pa2, .pa3{
 	background-size: cover;
 	width: auto;
 	height: 200px;
@@ -168,15 +189,15 @@
 
 /*Seção Criacoes*/
 .slick{
-	width: 90%;
+	width: 92%;
 	height: 100%;
-	max-height: 350px;
-	margin-left: 5%;
+	max-height: 320px;
+	margin-left: 4%;
 }
 .img_carossel{
-	margin: 0px 10px 10px 0px;
-	box-shadow: 0px 2px 4px #232323;
-	border-radius: 50%;
+	margin: 0px 15px 15px 0px;
+	box-shadow: 1px 2px 4px #232323;
+	border-radius: 10%;
 }
 
 /* Footer */
