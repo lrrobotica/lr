@@ -4,48 +4,48 @@
 }
 .title{
 	font-family: nunito;
-	color: #000;
 	font-size: 50px;
 	text-align: center;
 	margin-bottom: 50px;
-	text-shadow: 0px 0px 3px #333;
 }
 .text{
 	font-family: nunito;
-	color: #232323;
 	font-size: 18px;
 	letter-spacing: 0.9px;
-	font-weight: bold;
+	
 }
 
-#Sobre, #Timeline, #Contato{
-	background-color: rgba(0, 0, 255, 0.3);
+#Sobre, #Habilidades, #Portfolio , #Publico{
+	background: url(midia/bgbranco.png) center fixed;
+	color: #212121;
+	text-shadow: 0.5px 0.5px 0px #212121;
 }
-#Habilidades, #Portfólio, #Criacoes{
-	background-color: #fcfcfc;
+#Equipe, #Timeline, #Contato, #Projetos{
+	background: url(midia/bgazul.png) center fixed;
+	color: #fcfcfc;
+	text-shadow: 0.5px 0.5px 0px #fcfcfc;
 }
 
 /* Barra de Navegação */
 #barra_nav{
 	background-color: rgba(255, 108, 14);
-	opacity: 0.8;
+	opacity: 0.9;
 	padding-right: 50px;
 	box-shadow: 0px 2px 4px #232323;
 }
 #nav_item{
 	font-size: 14px;
-	font-weight: bold;
 	letter-spacing: 1px;
 	color: #fcfcfc;
 	font-family: nunito;
 	margin: 0px 8px 0px 8px;
-	text-shadow: 2px 2px 1px #000;
+	text-shadow: 1px 1px 1px #000;
 }
 #nav_item:hover{
-	color: #000;
-	transform: scale(1.15);
-	-ms-transform: scale(1.15);	/* IE 9 */
-	-webkit-transform: scale(1.15);	/* Safari */
+	color: #212121;
+	transform: scale(1.18);
+	-ms-transform: scale(1.18);	/* IE 9 */
+	-webkit-transform: scale(1.18);	/* Safari */
 	transition-duration: 0.4s;
 	text-shadow: 1px 1px 2px #fcfcfc;
 }
@@ -70,6 +70,7 @@
 }
 
 /* Seção Habilidades */
+
 .text-j{
 	font-family: lora;
 	color: #000;
@@ -79,19 +80,25 @@
 	text-transform: uppercase;
 	text-shadow: 1px 1px 0.5px #333;
 }
-.sk1{
-	background: url(midia/sk1.jpg) no-repeat center;
+.m1{
+	background: url(midia/m1.png) no-repeat center;
 }
-.sk2{
-	background: url(midia/sk2.png) no-repeat center;
+.m2{
+	background: url(midia/m2.png) no-repeat center;
 }
-.sk3{
-	background: url(midia/sk3.png) no-repeat center;
+.m3{
+	background: url(midia/m3.png) no-repeat center;
 }
-.sk4{
-	background: url(midia/sk4.png) no-repeat center;
+.m4{
+	background: url(midia/m4.png) no-repeat center;
 }
-.sk1, .sk2, .sk3, .sk4{
+.m5{
+	background: url(midia/m5.png) no-repeat center;
+}
+.m6{
+	background: url(midia/m6.png) no-repeat center;
+}
+.m1, .m2, .m3, .m4, .m5, .m6{
 	background-size: cover;
 	width: auto;
 	height: 200px;
@@ -147,8 +154,8 @@
 #icon{
 	font-size: 40px;
 	color: rgba(255, 108, 14);
-	opacity: 0.7;
-	margin: 0px 30px 45px 30px;
+	opacity: 0.8;
+	margin: 0px 25px 45px 25px;
 	text-shadow: 2px 3px 2px #000;
 }
 #icon:hover{
@@ -161,10 +168,10 @@
 
 /*Seção Criacoes*/
 .slick{
-	width: 88%;
+	width: 90%;
 	height: 100%;
 	max-height: 350px;
-	margin-left: 4%;
+	margin-left: 5%;
 }
 .img_carossel{
 	margin: 0px 10px 10px 0px;
